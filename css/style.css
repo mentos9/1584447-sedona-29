@@ -59,6 +59,8 @@ a {
 }
 
 .main_title_cause {
+  margin-top: 40px;
+  margin-bottom: 50px;
   font-family: PT Sans;
   font-size: 21px;
   font-style: normal;
@@ -70,6 +72,7 @@ a {
 }
 
 .main_text_cause {
+  margin-bottom: 50px;
   font-family: PT Sans;
   font-size: 14px;
   font-style: normal;
