@@ -32,9 +32,9 @@
     </div>
     <section class="one_cause">
       <div class="description_one_cause">
-        <h2 class="cause_title">Настоящий <br>городок</h2>
+        <h2 class="cause_title">НАСТОЯЩИЙ <br>ГОРОДОК</h2>
         <p class="cause_text">— №1 —</p>
-        <p class="cause_text">Седона - не аттракцион для туристов,<br> там течёт своя жизнь</p>
+        <p class="cause_text">СЕДОНА - НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ,<br> ТАМ ТЕЧЁТ СВОЯ ЖИЗНЬ</p>
       </div>
       <img class="image_one_cause" src="img/image.jpg" alt="фасад">
     </section>
@@ -43,18 +43,18 @@
       <ul class="features_list">
         <li class="features_item">
           <img src="img/icon-1.png" alt="">
-          <h3 class="features_title cause_title">Жильё</h3>
-          <p class="features_text cause_text">Рекомендуем пожить в настоящем <br> мотеле, всё как в кино!</p>
+          <h3 class="features_title cause_title">ЖИЛЬЁ</h3>
+          <p class="features_text cause_text">РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ <br> МОТЕЛЕ, ВСЁ КАК В КИНО!</p>
         </li>
         <li class="features_item">
           <img src="img/icon-2.png" alt="">
           <h3 class="features_title cause_title">Еда</h3>
-          <p class="features_text cause_text">Всегда заказывайте фирменный бургер,<br> вы не разочаруетесь!</p>
+          <p class="features_text cause_text">ВСЕГДА ЗАКАЗЫВАЙТЕ ФИРМЕННЫЙ БУРГЕР,<br> ВЫ НЕ РАЗОЧАРУЕТЕСЬ!</p>
         </li>
         <li class="features_item">
           <img src="img/icon-3.png" alt="">
-          <h3 class="features_title cause_title">Сувениры</h3>
-          <p class="features_text cause_text">Не только китайского, но и местного<br> производства!</p>
+          <h3 class="features_title cause_title">СУВЕНИРЫ</h3>
+          <p class="features_text cause_text">НЕ ТОЛЬКО КИТАЙСКОГО, НО И МЕСТНОГО<br> ПРОИЗВОДСТВА!</p>
         </li>
       </ul>
     </section>
@@ -64,7 +64,7 @@
       <div class="description_two_cause">
         <h2 class="cause_title">ТАМ ЕСТЬ<br>МОСТ ДЬЯВОЛА</h2>
         <p class="cause_text">— №2 —</p>
-        <p class="cause_text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+        <p class="cause_text">ДА, ПО НЕМУ МОЖНО ПРОЙТИ! ЕСЛИ КОНЕЧНО ВЫ ОСМЕЛИТЕСЬ</p>
       </div>
     </section>
     <section class="two_cause">
@@ -90,35 +90,59 @@
   <div>
     <div>
       <h4 class="search_hostel_title">ЗАИНТЕРЕСОВАЛИСЬ?</h4>
-      <p class="search_hostel_text">УКАЖИТЕ ПРЕДПОЛОГАЕМЫЕ ДАТЫ ПОЕЗДКИ, И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ  </p>
+      <p class="search_hostel_text">УКАЖИТЕ ПРЕДПОЛОГАЕМЫЕ ДАТЫ ПОЕЗДКИ, <br> И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
     </div>
-    <div class="calendar">
+    <div class="form_calendar">
         <div class="search_hostel_calendar">
-          <h5 class="calendar_title">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h5>
+          <div class="calendar_title">
+          <h5>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h5>
+          </div>
+          <form class="form_search_hostel" action="/seach.html" method="post">
+            <ul>
+              <li class="date_in">
+                <label for="date_in">ДАТА ЗАЕЗДА:</label>
+                <input type="date" id="date_in" name="date_in">
+              </li>
+              <li class="date_out">
+                <label for="date_out">ДАТА ВЫЕЗДА</label>
+                <input type="date" id="date_out" name="date_out">
+              </li>
+            </ul>
+            <ul class="search_hostel_age">
+              <li class="adult_years">
+                <label for="adult_years">ВЗРОСЛЫЕ:</label>
+                <input type="number" id="adult_years" name="adult_years">
+              </li>
+              <li class="child_years">
+                <label for="child_years">ДЕТИ:</label>
+                <input type="number" id="child_years" name="child_years">
+              </li>
+            </ul>
+          </form>
+          <!--Карта - Background картинка-->
+          <button class="button_search_hostel"><a class="text_button_search_hostel" href="seach.html" >НАЙТИ</a></button>
+        </div>
         </div>
         <!--Здесь будет форма-->
-        <!--Карта - Background картинка-->
-        <button><a href="seach.html"></a></button>
-    </div>
 
   </div>
 </main>
 
-<footer>
-  <div>
-    <span>#visitSEDONA</span><br>
-    <span>ТЕЛ: +7(495) 666-01-66</span>
+<footer class="main_footer">
+  <div class="number_footer">
+    <span class="number">#VISITSEDONA</span><br>
+    <span class="number">ТЕЛ: +7(495) 666-01-66</span>
   </div>
-  <div>
-    <ul>
-      <li><a href="">Twiter</a></li>
-      <li><a href="">Facebook</a></li>
-      <li><a href="">YouTube</a></li>
+
+    <ul class="social_network_list">
+      <li class="social_network_item"><a href=""><img src="img/twitter.png"></a></li>
+      <li class="social_network_item"><a href=""><img src="img/fb-icon.png"></a></li>
+      <li class="social_network_item"><a href=""><img src="img/youtube.png"></a></li>
     </ul>
-  </div>
-  <div>
-    <span>Website by</span>
-    <a href="https://htmlacademy.ru"><img src="" alt=""></a>
+
+  <div class="html_academy_footer">
+    <span class="html_academy">WEBSITE BY</span>
+    <a href="https://htmlacademy.ru"><img src="img/logo-htmlacademy.png" alt="html-academy"></a>
   </div>
 </footer>
 </div>

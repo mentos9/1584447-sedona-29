@@ -347,6 +347,15 @@ template {
 [hidden] {
   display: none;
 }
-ul {
+ul,
+h1,
+p,
+h5
+{
   margin:0;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  list-style-type: none;
 }
+
