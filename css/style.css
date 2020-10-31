@@ -369,9 +369,31 @@ a {
 
 }
 
+
 .filter {
   height: 217px;
+  background-image: url("../img/background.png");
+  display: flex;
+}
 
+.filter_sort_option {
+  width: 50%;
+}
+
+.sort_infrastructure {
+  display: flex;
+}
+
+.sort_option {
+  font-family: PT Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FFFFFF;
+  width: 80%;
 }
 
 .sorting {
