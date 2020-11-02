@@ -1,0 +1,475 @@
+.body {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  position: absolute;
+  margin-left: 531px;
+}
+
+.site_nav {
+  list-style-type: none;
+  width: 100%;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-inline-start: 0;
+}
+
+.site_nav li {
+  display: inline-block;
+  padding-left: 72px;
+  padding-right: 72px;
+}
+
+.site_nav a {
+  font-family: PT Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #000000;
+
+}
+
+.main_title_image {
+  width: 1200px;
+  height: 509px;
+  background: url("../img/background_photo.png");
+}
+
+.main_background_image {
+  margin-top: 77px;
+  margin-left: 371px;
+  margin-right: 371px;
+}
+
+.main_cause {
+  text-align: center;
+}
+
+.main_title_cause {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-family: PT Sans;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #000000;
+}
+
+.main_text_cause {
+  margin-bottom: 50px;
+  font-family: PT Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: #333333;
+}
+
+.description_one_cause {
+  display: inline-block;
+  width: 400px;
+  height: 256px;
+  box-sizing: border-box;
+  text-align: center;
+  background: #81B3D2;
+}
+
+.cause_title {
+  font-family: PT Sans;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  margin-top: 47px;
+}
+
+.cause_text {
+  font-family: PT Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  margin-top: 24px;
+}
+
+.image_one_cause {
+  width: 800px;
+  display: inline-block;
+  box-sizing: border-box;
+  position: absolute;
+
+}
+
+
+.features_list {
+  display: flex;
+  height: 330px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.features_list li {
+  list-style-type: none;
+}
+
+.features_item {
+  text-align: center;
+}
+
+.features_title {
+  color: black;
+  margin-top: 0;
+}
+
+.features_text {
+  color: #000000;
+}
+
+.description_two_cause {
+  display: inline-block;
+  width: 400px;
+  height: 256px;
+  box-sizing: border-box;
+  text-align: center;
+  position: absolute;
+  background: #81B3D2;
+}
+
+.two_cause_list {
+  height: 256px;
+  background: #EEEEEE;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.two_cause li {
+  list-style-type: none;
+}
+
+
+.search_hostel_title {
+  font-family: PT Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.search_hostel_text {
+  font-family: PT Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.form_calendar {
+  background-image: url("../img/map.jpg");
+  height: 594px;
+}
+
+.search_hostel_calendar {
+  position: absolute;
+  width: 568px;
+  height: 481px;
+  margin-top: 39px;
+  margin-left: 310px;
+  background-color: #FFFFFF;
+}
+
+.calendar_title {
+
+  height: 86px;
+  text-align: center;
+  background-color: #766357;
+}
+
+.calendar_title h5 {
+  padding-top: 30px;
+  font-family: PT Sans;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+
+.form_search_hostel {
+  font-family: PT Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0;
+  text-align: center;
+
+}
+
+.date_in {
+  margin-top: 55px;
+}
+
+.date_in input {
+  margin-left: 21px;
+  height: 38px;
+  width: 346px;
+  border: none;
+  background-color: #F2F2F2;
+}
+
+.date_out {
+  margin-top: 26px;
+}
+
+.date_out input {
+  margin-left: 21px;
+  height: 38px;
+  width: 346px;
+  border: none;
+  background-color: #F2F2F2;
+}
+
+.search_hostel_age {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 54px;
+}
+
+.adult_years {
+  margin-left: 55px;
+}
+
+.adult_years input {
+  height: 38px;
+  width: 114px;
+  border: none;
+  background-color: #F2F2F2;
+  margin-left: 37px;
+  margin-right: 53px;
+}
+
+.child_years input {
+  height: 38px;
+  width: 114px;
+  border: none;
+  background-color: #F2F2F2;
+  margin-left: 17px;
+}
+
+.button_search_hostel {
+  height: 58px;
+  width: 458px;
+  margin: 0 55px 0 55px;
+  border: none;
+  background-color: #81B3D2;
+}
+
+.text_button_search_hostel {
+  color: #FFFFFF;
+  font-family: PT Sans;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0;
+  text-align: center;
+
+}
+
+.main_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 120px;
+}
+
+.social_network_list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social_network_item {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  margin-left: 2px;
+  margin-right: 2px;
+  background-color: #81B3D2;
+  list-style-type: none;
+  text-align: center;
+}
+
+
+.social_network_item img {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.number_footer {
+  font-family: PT Sans;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+
+}
+
+.number {
+  margin-top: 9px;
+}
+
+.html_academy_footer {
+  display: flex;
+}
+
+.html_academy {
+  margin-top: 4px;
+  margin-right: 8px;
+  font-family: PT Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+
+}
+
+
+.filter {
+  height: 217px;
+  background-image: url("../img/background.png");
+  display: flex;
+}
+
+.filter_sort_option {
+  width: 50%;
+}
+
+.sort_infrastructure {
+  display: flex;
+}
+
+.sort_option {
+  font-family: PT Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FFFFFF;
+  width: 80%;
+}
+
+.sorting {
+  height: 88px;
+  width: 1054px;
+  margin: auto;
+  text-align: center;
+}
+
+.found_hotel_list {
+  width: 1054px;
+  margin: auto;
+}
+
+
+.found_hotel_item {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  border-top: 1px #F2F2F2;
+  border-bottom: 1px #F2F2F2;
+}
+
+.hostel {
+  width: 780px;
+  height: 90px;
+  margin-left: 28px;
+}
+
+.title_hostel {
+  width: 100%;
+  font-family: PT Sans;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0;
+  text-align: left;
+
+}
+
+.text_hostel {
+  display: flex;
+  margin-top: 8px;
+  margin-bottom: 7px;
+}
+
+.kind_hostel {
+  width: 116px;
+}
+
+.kind_hostel,
+.prise_hostel {
+  font-family: PT Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.button_details {
+  width: 110px;
+  height: 27px;
+  background-color: #81B3D2;
+  color: #FFFFFF;
+  border: none;
+}
+
+.button_booking {
+  width: 142px;
+  height: 27px;
+  background-color: #766357;
+  color: #FFFFFF;
+  border: none;
+  margin-left: 2px;
+}
