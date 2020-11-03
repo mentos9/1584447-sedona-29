@@ -377,11 +377,24 @@ a {
 }
 
 .filter_sort_option {
+  display: flex;
   width: 50%;
 }
 
-.sort_infrastructure {
+.filter_option {
   display: flex;
+  width: 50%;
+  flex-direction: column;
+  padding-left: 72px;
+  padding-top: 26px;
+  font-family: PT Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FFFFFF;
 }
 
 .sort_option {
@@ -394,14 +407,158 @@ a {
   text-align: left;
   color: #FFFFFF;
   width: 80%;
+  padding-left: 41px;
+  margin-top: 23px;
+}
+
+.checkbox_sort_option {
+  display: none;
+  position: absolute;
+}
+
+.fake_checkbox_sort_option {
+  position: absolute;
+  background-image: url("../img/checkbox-off.png");
+  width: 25px;
+  height: 23px;
+  margin-left: -41px;
+}
+
+.checkbox_sort_option:checked + .fake_checkbox_sort_option {
+  background-image: url("../img/checkbox-on.png");
+}
+
+
+.filter_price {
+  margin: auto;
+  font-family: PT Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.price_category {
+  display: flex;
+  width: 317px;
+  height: 36px;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 2px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.price_category p {
+  width: 50%;
+  margin: auto;
+  font-family: PT Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.price_slider {
+  -webkit-appearance: none;
+  width: 316px;
+  height: 2px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.price_slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+
+
+.show_result {
+  width: 137px;
+  height: 36px;
+  margin-top: 33px;
+  background: rgba(255, 255, 255, 0);
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 2px;
+  margin-left: 100px;
+  color: #FFFFFF;
+  font-family: PT Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  cursor: pointer;
 }
 
 .sorting {
+  display: flex;
+  align-items: center;
   height: 88px;
   width: 1054px;
   margin: auto;
   text-align: center;
 }
+
+.sorting h1 {
+  width: 120px;
+  margin-right: 46px;
+}
+
+.container_checkbox_sorting input {
+  display: none;
+}
+
+.checkbox_sorting {
+
+}
+
+.text_sorting {
+  font-family: PT Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #000000;
+}
+
+.sorting p {
+  width: 75px;
+  margin-right: 10px;
+}
+
+.sorting span {
+  margin-left: 30px;
+
+}
+
+.text_sorting {
+  font-family: PT Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
 
 .found_hotel_list {
   width: 1054px;
