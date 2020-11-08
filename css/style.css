@@ -6,12 +6,21 @@
 
 a {
   text-decoration: none;
+  color: #000000;
+}
+
+.not_visibility {
+  visibility: hidden;
+}
+
+.main_nav {
+  position: relative;
 }
 
 .logo {
-  padding-top: 22px;
-  padding-left: 67px;
-  padding-right: 67px;
+  margin-left: 531px;
+  position: absolute;
+  margin-top: -56px;
 }
 
 .site_nav {
@@ -298,6 +307,9 @@ a {
   margin: 0 55px 0 55px;
   border: none;
   background-color: #81B3D2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .text_button_search_hostel {
@@ -309,7 +321,6 @@ a {
   line-height: 26px;
   letter-spacing: 0;
   text-align: center;
-
 }
 
 .main_footer {
