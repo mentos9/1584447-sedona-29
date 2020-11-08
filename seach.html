@@ -10,11 +10,11 @@
 <body>
 <div class="body">
   <header>
-    <div class="logo"><a href="index.html"><img src="img/logo.png" alt="Логотип"></a></div>
     <nav class="main_nav">
       <ul class="site_nav">
         <li><a href="">ИНФОРМАЦИЯ</a></li>
         <li><a href="">ФОТО И ВИДЕО</a></li>
+        <div class="logo"><a href="index.html"><img src="img/logo.png" alt="Логотип"></a></div>
         <li><a href="">КАРТА ШТАТА</a></li>
         <li><a href="">ГОСТИНИЦЫ</a></li>
       </ul>
@@ -64,41 +64,38 @@
       <div class="filter_price">
         <p>СТОЙМОСТЬ В СУТКИ (Р):</p>
         <div class="price_category">
-          <p>ОТ</p>
-          <p>ДО</p>
+          <p>ОТ 0</p>
+          <p>ДО 3000</p>
         </div>
         <div class="price_slide_container">
-          <input type="range" min="1" max="3500" value="50" class="price_slider" id="price_slider">
+          <input type="range" min="1" max="3500" value="50" class="left_price_slider">
+          <input type="range" min="1" max="3500" value="50" class="right_price_slider">
         </div>
         <button class="show_result">ПОКАЗАТЬ</button>
       </div>
     </section>
     <section class="sorting">
       <!--Здесь будет сортировка-->
-      <h1 class="title_hostel">НАЙДЕНО:</h1>
-      <p class="text_sorting">СОРТИРОВКА:</p>
+      <h1 class="title_hostel">НАЙДЕНО: 3</h1>
+      <p class="main_text_sorting">СОРТИРОВКА:</p>
       <div class="container_checkbox_sorting">
-        <label class="checkbox_sorting">
-          <input type="checkbox" class="text_sorting"></input>
-          <span class="text_sorting">ПО ЦЕНЕ</span>
+        <label class="text_sorting" for="button0">
+          <input class="not_highlighted" type="button" id="button0" value="ПО ЦЕНЕ">
         </label>
-        <label>
-          <input type="checkbox" class="text_sorting"></input>
-          <span class="text_sorting">ПО ЦЕНЕ</span>
+        <label class="text_sorting" for="button1">
+          <input class="not_highlighted" type="button" id="button1" value="ПО ТИПУ">
         </label>
-        <label>
-          <input type="checkbox" class="text_sorting"></input>
-          <span class="text_sorting">ПО ЦЕНЕ</span>
+        <label class="text_sorting" for="button2">
+          <input class="not_highlighted" type="button" id="button2" value="ПО РЕЙТИНГУ">
         </label>
       </div>
     </section>
     <section>
       <div class="found_hotel_list">
         <div class="found_hotel_item">
-
           <img src="img/Layer%2021.png" alt="">
           <div class="hostel">
-            <h2 class="title_hostel">Amara Resort & Spa</h2>
+            <h2 class="title_hostel">AMARA RESORT & SPA</h2>
             <div class="text_hostel">
               <p class="kind_hostel">ГОСТИНИЦА</p>
               <p class="prise_hostel">ОТ 4000 Р.</p>
@@ -108,12 +105,20 @@
               <button class="button_booking">Забронировать</button>
             </div>
           </div>
-          <div><!--Здесь будет Рейтинг--></div>
+          <div class="rating">
+            <div class="star_rating">
+              <img src="img/star.png">
+              <img src="img/star.png">
+              <img src="img/star.png">
+              <img src="img/star.png">
+            </div>
+            <div class="point_rating"><p>РЕЙТИНГ: 8,5</p></div>
+          </div>
         </div>
         <div class="found_hotel_item">
           <img src="img/Layer%2089%20copy.png" alt="">
           <div class="hostel">
-            <h2 class="title_hostel">Desert Quail Inn</h2>
+            <h2 class="title_hostel">DESERT QUAIL INN</h2>
             <div class="text_hostel">
               <p class="kind_hostel">МОТЕЛЬ</p>
               <p class="prise_hostel">ОТ 3000 Р.</p></div>
@@ -122,12 +127,19 @@
               <button class="button_booking">Забронировать</button>
             </div>
           </div>
-          <div><!--Здесь будет Рейтинг--></div>
+          <div class="rating">
+            <div class="star_rating">
+              <img src="img/star.png">
+              <img src="img/star.png">
+              <img src="img/star.png">
+            </div>
+            <div class="point_rating"><p>РЕЙТИНГ: 8,9</p></div>
+          </div>
         </div>
         <div class="found_hotel_item">
           <img src="img/Rectangle.png" alt="">
           <div class="hostel">
-            <h2 class="title_hostel">Villas at Poco Diablo</h2>
+            <h2 class="title_hostel">VILLAS AT POCO DIABLO</h2>
             <div class="text_hostel">
               <p class="kind_hostel">АПАРТАМЕНТЫ</p>
               <p class="prise_hostel">ОТ 2000 Р.</p></div>
@@ -136,7 +148,13 @@
               <button class="button_booking">Забронировать</button>
             </div>
           </div>
-          <div><!--Здесь будет Рейтинг--></div>
+          <div class="rating">
+            <div class="star_rating">
+              <img src="img/star.png">
+              <img src="img/star.png">
+            </div>
+            <div class="point_rating"><p>РЕЙТИНГ: 9,2</p></div>
+          </div>
         </div>
       </div>
     </section>
@@ -144,7 +162,7 @@
 
   <footer class="main_footer">
     <div class="number_footer">
-      <span class="number">#VISITSEDONA</span><br>
+      <span class="hashtag">#VISITSEDONA</span><br>
       <span class="number">ТЕЛ: +7(495) 666-01-66</span>
     </div>
 
@@ -160,5 +178,6 @@
     </div>
   </footer>
 </div>
+<script src="js/app.js"></script>
 </body>
 </html>
