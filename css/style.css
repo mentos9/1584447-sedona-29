@@ -493,6 +493,12 @@ padding-top: 9px;
   text-align: center;
 }
 
+.price_entry_field input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+
 .price_slide_container {
   position: relative;
 }
