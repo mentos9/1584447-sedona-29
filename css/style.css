@@ -319,8 +319,10 @@ a {
 }
 
 .social_network_list {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-rows: 48px;
+  grid-template-columns: 48px 48px 48px;
+  grid-column-gap: 2px;
   margin-left: 180px;
 }
 
@@ -328,8 +330,6 @@ a {
   position: relative;
   width: 48px;
   height: 48px;
-  margin-left: 2px;
-  margin-right: 2px;
   background-color: #81B3D2;
   list-style-type: none;
   text-align: center;
