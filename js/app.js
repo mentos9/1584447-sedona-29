@@ -17,3 +17,12 @@ let buttonData = Array.from(buttons).map((el, i) => {
 buttonData.forEach((btn, i) => {
 
 });
+
+
+let searchHostel = document.getElementById('search_hostel');
+let search = document.getElementById('search_hostel_calendar');
+
+searchHostel.addEventListener("click", function () {
+ search.classList.toggle("visibility");
+ console.log('1');
+})
