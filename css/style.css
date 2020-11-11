@@ -339,7 +339,7 @@ a {
   z-index: 100;
   left: 0;
   position: absolute;
-  background: rgba(255,255,255, 0.7);
+  background: rgba(255, 255, 255, 0.7);
   width: 100%;
 }
 
@@ -383,7 +383,7 @@ a {
 }
 
 .number {
-padding-top: 9px;
+  padding-top: 9px;
 }
 
 .html_academy_footer {
