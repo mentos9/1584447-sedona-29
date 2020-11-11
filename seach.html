@@ -65,12 +65,14 @@
       <div class="filter_price">
         <p>СТОЙМОСТЬ В СУТКИ (Р):</p>
         <div class="price_category">
-          <p class="price_entry_field">ОТ <input type="text" size="10"></p>
-          <p class="price_entry_field">ДО <input type="text" size="10"></p>
+          <p class="price_entry_field">ОТ <label for="price_entry_field_min"></label><input id="price_entry_field_min" type="text" size="10"></p>
+          <p class="price_entry_field">ДО <label for="price_entry_field_max"></label><input id="price_entry_field_max" type="text" size="10"></p>
         </div>
         <div class="price_slide_container">
-          <input type="range" min="1" max="3500" value="50" class="left_price_slider">
-          <input type="range" min="1" max="3500" value="50" class="right_price_slider">
+          <label for="scroll_min_price"></label>
+          <input id="scroll_min_price" type="range" min="1" max="3500" value="50" class="left_price_slider">
+          <label for="scroll_max_price"></label>
+          <input id="scroll_max_price" type="range" min="1" max="3500" value="50" class="right_price_slider">
         </div>
         <button class="show_result">ПОКАЗАТЬ</button>
       </div>
@@ -94,7 +96,7 @@
     <section>
       <div class="found_hotel_list">
         <div class="found_hotel_item">
-          <img width="135" height="90" src="img/Layer%2021.png" alt="ГОСТИНИЦА">
+          <img width="135" height="90" src="img/amara-resort.png" alt="ГОСТИНИЦА">
           <div class="hostel">
             <h2 class="title_hostel">AMARA RESORT & SPA</h2>
             <div class="text_hostel">
@@ -117,7 +119,7 @@
           </div>
         </div>
         <div class="found_hotel_item">
-          <img width="135" height="90" src="img/Layer%2089%20copy.png" alt="МОТЕЛЬ">
+          <img width="135" height="90" src="img/desert-quail.png" alt="МОТЕЛЬ">
           <div class="hostel">
             <h2 class="title_hostel">DESERT QUAIL INN</h2>
             <div class="text_hostel">
@@ -138,7 +140,7 @@
           </div>
         </div>
         <div class="found_hotel_item">
-          <img width="135" height="90" src="img/Rectangle.png" alt="АПАРТАМЕНТЫ">
+          <img width="135" height="90" src="img/rectangle.png" alt="АПАРТАМЕНТЫ">
           <div class="hostel">
             <h2 class="title_hostel">VILLAS AT POCO DIABLO</h2>
             <div class="text_hostel">
@@ -164,7 +166,7 @@
   <footer class="main_footer">
     <div class="number_footer">
       <span class="hashtag">#VISITSEDONA</span><br>
-      <a href="#"><span class="number">ТЕЛ: +7(495) 666-01-66</span></a>
+      <a href="#" type="tel"><span class="number">ТЕЛ: +7(495) 666-01-66</span></a>
     </div>
 
     <ul class="social_network_list">
