@@ -39,7 +39,7 @@ aaa.click(function (event) {
 
   });
   if($('#form_search_hostel input.error').length == 0) {
-    document.location.href="/sedona-29/seach.html";
+    document.location.href="./seach.html";
   }else {
     console.log("ошибка");
   }
