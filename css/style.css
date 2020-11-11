@@ -37,7 +37,7 @@ a {
 }
 
 .site_nav a {
-  font-family: PT Sans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -52,6 +52,7 @@ a {
   width: 1200px;
   height: 509px;
   background: url("../img/background-photo.jpg");
+  background-color: #FFFFFF;
 }
 
 .main_background_image {
@@ -68,7 +69,7 @@ a {
 .main_title_cause {
   margin-top: 40px;
   margin-bottom: 50px;
-  font-family: PT Sans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 21px;
   font-style: normal;
   font-weight: 700;
@@ -80,7 +81,7 @@ a {
 
 .main_text_cause {
   margin-bottom: 50px;
-  font-family: PT Sans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -100,7 +101,7 @@ a {
 }
 
 .cause_title {
-  font-family: PT Sans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 21px;
   font-style: normal;
   font-weight: 700;
@@ -111,7 +112,7 @@ a {
 }
 
 .cause_text {
-  font-family: PT Sans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -188,7 +189,7 @@ a {
 
 .search_hostel_title {
   margin-top: 75px;
-  font-family: PT Sans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -199,7 +200,7 @@ a {
 
 .search_hostel_text {
   margin-top: -8px;
-  font-family: PT Sans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -240,7 +241,7 @@ a {
   height: 86px;
   border: none;
   cursor: pointer;
-  font-family: PT Sans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 21px;
   font-style: normal;
   font-weight: 700;
@@ -251,7 +252,7 @@ a {
 }
 
 .form_search_hostel {
-  font-family: PT Sans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -325,7 +326,7 @@ a {
 
 .text_button_search_hostel {
   color: #FFFFFF;
-  font-family: PT Sans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 21px;
   font-style: normal;
   font-weight: 700;
@@ -374,7 +375,7 @@ a {
 }
 
 .number_footer {
-  font-family: PT Sans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 21px;
   font-style: normal;
   font-weight: 700;
@@ -397,7 +398,7 @@ a {
 .html_academy {
   margin-top: 4px;
   margin-right: 8px;
-  font-family: PT Sans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -427,7 +428,7 @@ a {
   flex-direction: column;
   margin-left: 0;
   padding-top: 26px;
-  font-family: PT Sans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -438,7 +439,7 @@ a {
 }
 
 .sort_option {
-  font-family: PT Sans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -473,7 +474,7 @@ a {
 .filter_price {
   margin: auto;
   padding-left: 50px;
-  font-family: PT Sans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -501,7 +502,7 @@ a {
 .price_category p {
   width: 50%;
   margin: auto;
-  font-family: PT Sans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -580,7 +581,7 @@ a {
   border-radius: 2px;
   margin-left: 100px;
   color: #FFFFFF;
-  font-family: PT Sans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -618,7 +619,7 @@ a {
 
 .main_text_sorting,
 .text_sorting {
-  font-family: PT Sans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -650,6 +651,14 @@ a {
   border-bottom: none;
 }
 
+.sorting_up {
+  margin-left: 460px;
+}
+
+.sorting_down {
+  margin-left: 12px;
+}
+
 .found_hotel_list {
   width: 1054px;
   margin: auto;
@@ -674,7 +683,7 @@ a {
 .title_hostel {
   padding-top: 0;
   width: 100%;
-  font-family: PT Sans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 21px;
   font-style: normal;
   font-weight: 700;
@@ -696,7 +705,7 @@ a {
 
 .kind_hostel,
 .prise_hostel {
-  font-family: PT Sans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -706,27 +715,43 @@ a {
 }
 
 .button_details {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: center;
   width: 110px;
   height: 27px;
   background-color: #81B3D2;
   color: #FFFFFF;
   border: none;
+  cursor: pointer;
 }
 
 .button_booking {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: center;
   width: 142px;
   height: 27px;
   background-color: #766357;
   color: #FFFFFF;
   border: none;
   margin-left: 2px;
+  cursor: pointer;
 }
 
 .point_rating {
   width: 110px;
   height: 27px;
   background-color: #F2F2F2;
-  font-family: PT Sans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;

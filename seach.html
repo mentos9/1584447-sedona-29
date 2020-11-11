@@ -5,7 +5,7 @@
   <title>HTML Academy: Седона</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="body">
@@ -14,7 +14,7 @@
       <ul class="site_nav">
         <li><a href="#">ИНФОРМАЦИЯ</a></li>
         <li><a href="#">ФОТО И ВИДЕО</a></li>
-        <li><a href="#"></a></li>
+        <li class="not_visibility"><a href="#">ФОТО И ВИДЕО</a></li>
         <li><a href="#">КАРТА ШТАТА</a></li>
         <li><a href="#">ГОСТИНИЦЫ</a></li>
       </ul>
@@ -91,6 +91,8 @@
         <label class="text_sorting" for="button2">
           <input class="not_highlighted" type="button" id="button2" value="ПО РЕЙТИНГУ">
         </label>
+        <img class="sorting_up" src="img/shape-grey.png" width="11" height="10" alt="sorting_up">
+        <img class="sorting_down" src="img/shape-blue.png" height="10" width="11" alt="sorting_down">
       </div>
     </section>
     <section>
@@ -166,7 +168,7 @@
   <footer class="main_footer">
     <div class="number_footer">
       <span class="hashtag">#VISITSEDONA</span><br>
-      <a href="#" type="tel"><span class="number">ТЕЛ: +7(495) 666-01-66</span></a>
+      <a href="tel"><span class="number">ТЕЛ: +7(495) 666-01-66</span></a>
     </div>
 
     <ul class="social_network_list">
