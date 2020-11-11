@@ -147,7 +147,7 @@ a {
 
 .features_title {
   color: black;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .features_text {
@@ -195,6 +195,7 @@ a {
 }
 
 .search_hostel_text {
+  margin-top: -8px;
   font-family: PT Sans;
   font-size: 14px;
   font-style: normal;
@@ -210,6 +211,7 @@ a {
 }
 
 .form_calendar iframe {
+  margin-top: 126px;
   position: absolute;
   width: 1200px;
 }
@@ -333,7 +335,7 @@ a {
   display: flex;
   align-items: center;
   height: 120px;
-  margin-top: -50px;
+  margin-top: 10px;
   z-index: 100;
   left: 0;
   position: absolute;
