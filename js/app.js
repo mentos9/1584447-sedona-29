@@ -19,10 +19,10 @@ let searchHostel = document.getElementById('search_hostel');
 let search = document.getElementById('search_hostel_calendar');
 
 if (searchHostel) {
-searchHostel.addEventListener("click", function () {
-  search.classList.toggle("visibility");
-  console.log("1");
-});
+  searchHostel.addEventListener("click", function () {
+    search.classList.toggle("visibility");
+    console.log("1");
+  });
 }
 
 var aaa = $("#text_button_search_hostel");
@@ -38,9 +38,9 @@ aaa.click(function (event) {
     }
 
   });
-  if($('#form_search_hostel input.error').length == 0) {
-    document.location.href="/sedona-29/seach.html";
-  }else {
+  if ($('#form_search_hostel input.error').length == 0) {
+    document.location.href = "./seach.html";
+  } else {
     console.log("ошибка");
   }
 
